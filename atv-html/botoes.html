@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
+
+    <!-- UNPKG -->
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
+    <!-- JSDelivr -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .container-top {
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body {
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .container-logo-icons {
+            display: flex;
+            align-items: center;    
+        }
+
+        .container-center {
+            position: absolute;
+            left: 400px;
+            top: 200px;
+            width: 550px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 80px;
+        }
+
+        .container-center button {
+            padding: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            width: 200px;
+            transition: transform 0.2s ease-in-out, background-color 0.22s ease-in-out;
+            cursor: pointer;
+        }
+
+
+        .container-center button:hover {
+            transform: translateY(-3px);
+            background-color: rgb(88, 88, 255);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container-top">
+        <div class="container-logo-icons">
+            <h2 style="margin-left: 20px;">Funcionários</h1>
+        </div>
+        <div style="display: flex; gap: 10px; margin-right: 20px;">
+            <i class="fa-regular fa-window-minimize" style="color: #000000;"></i>
+            <i class="fa-regular fa-square" style="color: #000000;"></i>
+            <i class="fa-solid fa-x" style="color: #000000;"></i>
+        </div>
+    </div>
+    <div class="container-center">
+        <div>
+            <a href="cadastro/indexForm.html"><button>Cadastrar</button></a> 
+        </div>
+
+        <div>
+            <a href="table/table.html"><button>Listar</button></a>
+        </div>
+        
+    </div>
+</body>
+
+</html>
